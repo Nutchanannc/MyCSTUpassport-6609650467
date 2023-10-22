@@ -5,8 +5,7 @@
 }
 
 body {
-    background-color: #dddddd;
-    color: #333;
+    background-color: rgb(248, 245, 211);
 }
 
 .container {
@@ -17,7 +16,7 @@ body {
 
 nav {
     padding: 1rem;
-    background-color: #122436;
+    background-color:rgb(146, 191, 208);
 }
 
 .nav-con {
@@ -46,9 +45,8 @@ nav {
 }
 
 .hero {
-    background-color: #cccccc;
-    color: #555555;
-    padding: 2rem;
+    background-color: #f0f0f0;
+
 }
 
 .hero-con {
@@ -72,7 +70,7 @@ nav {
 
 .hero-info .hero-btn {
     display: inline-block;
-    background-color: #444444;
+    background-color: orange;
     color: #fff;
     padding: 1rem;
     border-radius: 5px;
@@ -90,7 +88,7 @@ nav {
 
 .blog-con {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr 1fr 1fr;
     gap: 2rem;
 }
 
@@ -113,13 +111,11 @@ nav {
 .blog-item a {
     display: inline-block;
     color: #fff;
-    background-color: #444444;
+    background-color: rgb(146, 191, 208);
     padding: 0.5rem 1rem;
     text-decoration: none;
     border-radius: 5px;
 }
-
-
 
 @media (max-width: 1024px) {
     .blog-con {
@@ -129,6 +125,7 @@ nav {
     }
     .blog-item {
        text-align:  center;
+       
     }
     .blog-title{
         text-align: center;
@@ -144,10 +141,12 @@ nav {
     }
 }
 
+
+
 .footer-top {
     margin-top: 2rem;
     padding: 3rem;
-    background-color: #122436;
+    background-color: #333;
     color: #fff;
 }
 
